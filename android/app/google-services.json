@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "348972724325",
+    "project_id": "fixall-b48e5",
+    "storage_bucket": "fixall-b48e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348972724325:android:282f773adac1478f2d568c",
+        "android_client_info": {
+          "package_name": "com.fixall.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348972724325-jj0f397r1fknovdits77oj6unihec35h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACMFuA-gYQo6IGDWpt0amI9tnCEf4YZkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348972724325-jj0f397r1fknovdits77oj6unihec35h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
