@@ -1,10 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
-import 'forgot_pw_page.dart';
-
 class LoginPage extends StatefulWidget {
-
   @override
   State<LoginPage> createState() => _LoginPageState();
 }
@@ -33,16 +30,16 @@ class _LoginPageState extends State<LoginPage> {
       backgroundColor: Colors.transparent,
       body: Container(
         width: MediaQuery.of(context).size.width,
-    height: MediaQuery.of(context).size.height,
-    decoration: BoxDecoration(
-    color: Colors.transparent,
-    image: DecorationImage(
-    fit: BoxFit.fill,
-    image: Image.asset(
-    'assets/fondo2.png',
-    ).image,
-    ),
-    ),
+        height: MediaQuery.of(context).size.height,
+        decoration: BoxDecoration(
+          color: Colors.transparent,
+          image: DecorationImage(
+            fit: BoxFit.fill,
+            image: Image.asset(
+              'assets/fondo2.png',
+            ).image,
+          ),
+        ),
         child: SafeArea(
           child: Center(
             child: SingleChildScrollView(
@@ -51,7 +48,11 @@ class _LoginPageState extends State<LoginPage> {
                 // ignore: prefer_const_literals_to_create_immutables
                 children: [
                   //logo
-                  Image.asset('assets/logo1.png',height: 200,width: 200,),
+                  Image.asset(
+                    'assets/logo1.png',
+                    height: 200,
+                    width: 200,
+                  ),
                   const SizedBox(
                     height: 15,
                   ),
@@ -66,10 +67,7 @@ class _LoginPageState extends State<LoginPage> {
                   const Text(
                     "Estamos trabajando en eso...",
                     textAlign: TextAlign.center,
-                    style: TextStyle(
-                      fontSize: 35,
-                      color: Colors.white
-                    ),
+                    style: TextStyle(fontSize: 35, color: Colors.white),
                   ),
                 ],
               ),
