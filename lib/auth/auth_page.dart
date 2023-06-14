@@ -1,7 +1,7 @@
-import 'package:fixall/pages/login_page.dart';
+import 'package:fixall/contratar/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
-import '../pages/register_page.dart';
+import '../contratar/pages/register_page.dart';
 
 class AuthPage extends StatefulWidget {
   const AuthPage({Key? key}) : super(key: key);
@@ -24,7 +24,7 @@ class _AuthPageState extends State<AuthPage> {
     if (showLoginPage) {
       return LoginPage();
     } else {
-      return RegisterPage(showLoginPage: toggleScreens);
+      return const RegisterPage();
     }
   }
 }
