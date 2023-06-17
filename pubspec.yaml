@@ -41,6 +41,7 @@ dependencies:
   iconsax: ^0.0.8
   image_picker: ^0.8.7+4
   country_picker: ^2.0.20
+  google_maps_flutter: ^2.3.0
   fluttertoast:
   flutter:
     sdk: flutter

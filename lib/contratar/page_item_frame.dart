@@ -359,14 +359,10 @@ class _NextFramePageState extends State<NextFramePage> {
                     ),
                     InkWell(
                       onTap: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) {
-                              return const HomePage();
-                            },
-                          ),
-                        );
+                        Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const HomePage()));
                       },
                       child: Container(
                         width: 150.0,

@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:fixall/contratar/filtro.dart';
+import 'package:fixall/contratar/carga_buscar.dart';
+
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -99,14 +100,10 @@ class _HomePageState extends State<HomePage> {
                     //loguiarse cliente
                     InkWell(
                       onTap: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) {
-                              return const FiltroPage();
-                            },
-                          ),
-                        );
+                        Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const BuscarOk()));
                       },
                       child: Container(
                         width: 130.0,
